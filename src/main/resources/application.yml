@@ -1,0 +1,9 @@
+server:
+  port: 8082
+student:
+  name: xiaoming
+  age: 19
+pets:
+  - cat
+  - dog
+  - pig
