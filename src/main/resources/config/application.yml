@@ -1,0 +1,35 @@
+server:
+  port: 8080
+student:
+  name: ${random.uuid}
+  age: ${random.int}
+  mail: 1819442899@qq.com
+pets:
+  - cat
+  - dog
+  - pig
+spring:
+  profiles:
+    active: prod
+
+#debug: true
+
+
+---
+spring:
+  profiles: dev
+
+server:
+  port: 8081
+---
+spring:
+  profiles: test
+
+server:
+  port: 8082
+---
+spring:
+  profiles: prod
+
+server:
+  port: 8083
