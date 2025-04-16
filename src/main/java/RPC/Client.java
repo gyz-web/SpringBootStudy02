@@ -12,4 +12,7 @@ public class Client {
         userService client = RPC.getProxy(userService.class, 100000, new InetSocketAddress("localhost", 9999), configuration);
         int user = client.getUser(33333333);
     }
+    //1
+    //22
+    //33
 }
